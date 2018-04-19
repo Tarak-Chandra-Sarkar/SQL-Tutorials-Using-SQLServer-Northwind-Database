@@ -102,20 +102,6 @@ INSERT INTO Customers(CustomerName,ContactName,Address,City,PostalCode,Country) 
 INSERT INTO Customers(CustomerName,ContactName,Address,City,PostalCode,Country) VALUES ('Wilman Kala','Matti Karttunen','Keskuskatu 45','Helsinki','21240','Finland'); 
 INSERT INTO Customers(CustomerName,ContactName,Address,City,PostalCode,Country) VALUES ('Wolski','Zbyszek','ul. Filtrowa 68','Walla','01-012','Poland');
 
--- SQLite Sequence Table
-CREATE TABLE sqlite_sequence(
-	name,seq
-	);
-
---Insert Sample values into SQLite Sequence Table
-INSERT INTO sqlite_sequence(name,seq) VALUES ("Customers","91"); 
-INSERT INTO sqlite_sequence(name,seq) VALUES ("Categories","8"); 
-INSERT INTO sqlite_sequence(name,seq) VALUES ("Employees","10"); 
-INSERT INTO sqlite_sequence(name,seq) VALUES ("OrderDetails","518"); 
-INSERT INTO sqlite_sequence(name,seq) VALUES ("Orders","10443"); 
-INSERT INTO sqlite_sequence(name,seq) VALUES ("Products","77"); 
-INSERT INTO sqlite_sequence(name,seq) VALUES ("Shippers","3"); 
-INSERT INTO sqlite_sequence(name,seq) VALUES ("Suppliers","29");
 
 
 --Create Categories Table
@@ -1037,3 +1023,19 @@ INSERT INTO Suppliers(SupplierName,ContactName,Address,City,PostalCode,Country,P
 INSERT INTO Suppliers(SupplierName,ContactName,Address,City,PostalCode,Country,Phone) VALUES ('Escargots Nouveaux','Marie Delamare','22, rue H. Voiron','Montceau','71300','France','85.57.00.07');
 INSERT INTO Suppliers(SupplierName,ContactName,Address,City,PostalCode,Country,Phone) VALUES ('Gai pâturage','Eliane Noz','Bat. B 3, rue des Alpes','Annecy','74000','France','38.76.98.06');
 INSERT INTO Suppliers(SupplierName,ContactName,Address,City,PostalCode,Country,Phone) VALUES ('Forêts d''érables','Chantal Goulet','148 rue Chasseur','Ste-Hyacinthe','J2S 7S8','Canada','(514) 555-2955');
+
+
+-- SQLite Sequence Table
+CREATE TABLE sqlite_sequence(
+	name,seq
+	);
+
+--Insert Sample values into SQLite Sequence Table
+INSERT INTO sqlite_sequence(name,seq) VALUES ("Customers","91"); 
+INSERT INTO sqlite_sequence(name,seq) VALUES ("Categories","8"); 
+INSERT INTO sqlite_sequence(name,seq) VALUES ("Employees","10"); 
+INSERT INTO sqlite_sequence(name,seq) VALUES ("OrderDetails","518"); 
+INSERT INTO sqlite_sequence(name,seq) VALUES ("Orders","10443"); 
+INSERT INTO sqlite_sequence(name,seq) VALUES ("Products","77"); 
+INSERT INTO sqlite_sequence(name,seq) VALUES ("Shippers","3"); 
+INSERT INTO sqlite_sequence(name,seq) VALUES ("Suppliers","29");
